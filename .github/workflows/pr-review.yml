@@ -4,6 +4,9 @@ jobs:
   job1:
     name: 'code-review'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - name: first
         uses: SuneetBansal/ai-driven-pr-review@main
