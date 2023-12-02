@@ -11,7 +11,7 @@ jobs:
       - name: first
         uses: SuneetBansal/ai-driven-pr-review@main
         with:
-          openai-key: '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'
+          openai-key: ${{ secrets.OPENAI_API_KEY }}
       
     
     
